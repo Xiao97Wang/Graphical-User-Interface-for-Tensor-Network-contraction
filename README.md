@@ -18,7 +18,9 @@ make sure your python can run the following
 ###############################################
 
 import sys
+
 import numpy as np
+
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QPushButton, QVBoxLayout,
     QLabel, QGraphicsView, QGraphicsScene, QGraphicsItem,
@@ -26,7 +28,9 @@ from PyQt5.QtWidgets import (
     QGraphicsTextItem, QDialog, QFormLayout, QLineEdit, QMessageBox,
     QAction, QMenu, QCheckBox, QTableWidget, QTableWidgetItem, QHeaderView, QTextEdit
 )
+
 from PyQt5.QtGui import (
     QPainter, QPen, QBrush, QColor, QFont, QPainterPath, QPainterPathStroker
 )
+
 from PyQt5.QtCore import Qt, QPointF, QLineF
