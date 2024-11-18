@@ -1,8 +1,11 @@
 # Graphical-User-Interface-for-Tensor-Network-contraction
 
+This code is made possible by ChatGPT o1 preview. 
+
+It is the first graphical user interface that allows you to contract a tensor network by dragging the tensors by you hand. 
 
 
-use the following code to open:
+use the following code to open the graphical User interface:
 
 python GUI_TN_contraction.py
 
