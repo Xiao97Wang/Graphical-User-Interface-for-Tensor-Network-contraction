@@ -8,7 +8,9 @@ python GUI_TN_contraction.py
 
 
 ###############################################
+
 make sure your python can run the following
+
 ###############################################
 
 import sys
