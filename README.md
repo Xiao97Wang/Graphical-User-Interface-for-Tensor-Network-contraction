@@ -3,6 +3,7 @@
 
 
 use the following code to open:
+
 python GUI_TN_contraction.py
 
 
