@@ -7,15 +7,13 @@ It is the first graphical user interface that allows you to contract a tensor ne
 
 ###############################################
 
-Download the single .py file with the latest version (v002), 
+How to use:
 
-then use the following code to open the graphical User interface:
+Download the single .py file (the latest version is v002), then rune the following in CMD to open the graphical User interface:
 
 python GUI_TN_contraction_v002.py
 
-
-
-(make sure your python can run numpy and PyQt5)
+(make sure your python can import numpy and PyQt5)
 
 ###############################################
 
