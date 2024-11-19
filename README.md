@@ -4,6 +4,8 @@ This code is made possible by ChatGPT o1 preview.
 
 It is the first graphical user interface that allows you to contract a tensor network by dragging the tensors by you hand. 
 
+
+
 realise tensor operations by draging and clicking
 ![image](https://github.com/user-attachments/assets/5ef2e575-0502-4d78-93be-244c36cf19df)
 
