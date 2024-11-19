@@ -7,7 +7,7 @@ It is the first graphical user interface that allows you to contract a tensor ne
 
 ###############################################
 
-use the following code to open the graphical User interface:
+Download the single .py file with the latest version (v002), then use the following code to open the graphical User interface:
 
 python GUI_TN_contraction_v002.py
 
