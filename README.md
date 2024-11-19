@@ -13,7 +13,7 @@ Download the single .py file (the latest version is v002), then run the followin
 
 python GUI_TN_contraction_v002.py
 
-(make sure your environment contains a python can import numpy and PyQt5)
+(make sure your environment contains a python that can import numpy and PyQt5)
 
 ###############################################
 
