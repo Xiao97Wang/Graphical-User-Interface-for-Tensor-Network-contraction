@@ -11,7 +11,8 @@ What can this GUI do
 
 
 realise tensor operations by draging and clicking
-![image](https://github.com/user-attachments/assets/5ef2e575-0502-4d78-93be-244c36cf19df)
+![image](https://github.com/user-attachments/assets/330d1b7c-6791-44b1-ba71-e5a86482ae37)
+
 
 
 double-click a tensor to access its value
