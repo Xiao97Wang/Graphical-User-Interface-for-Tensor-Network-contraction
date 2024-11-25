@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
+# In[10]:
 
 
 import sys
@@ -995,7 +995,7 @@ class TensorNetworkEditor(QGraphicsView):
                         self.setCursor(Qt.ArrowCursor)
                         self.parent().parent().svdButton.setChecked(False)
                         self.parent().parent().svdButton.setText(
-                            "SVD Decomposition"
+                            "SVD Bond Compression"
                         )
                         # Reset node colors
                         for node in self.nodes:
@@ -1170,7 +1170,7 @@ class HelpDialog(QDialog):
 
         <h3>SVD Decomposition:</h3>
         <ul>
-            <li>Click on the "SVD Decomposition" button.</li>
+            <li>Click on the "SVD Bond Compression" button.</li>
             <li>Click on the first tensor node to select it (it will turn yellow).</li>
             <li>Click on the second tensor node to select it.</li>
             <li>If multiple edges connect the tensors, a dialog will appear to select which edge to perform SVD over.</li>
@@ -1281,7 +1281,7 @@ class MainWindow(QMainWindow):
         self.disconnectButton.clicked.connect(self.toggleDisconnectMode)
 
         # Added SVD Button
-        self.svdButton = QPushButton("SVD Decomposition")
+        self.svdButton = QPushButton("SVD Bond Compression")
         self.svdButton.setCheckable(True)
         self.svdButton.clicked.connect(self.toggleSVDMode)
 
@@ -1343,7 +1343,7 @@ class MainWindow(QMainWindow):
             self.disconnectButton.setChecked(False)
             self.disconnectButton.setText("Disconnect Tensors")
             self.svdButton.setChecked(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
             self.fastContractButton.setChecked(False)
             self.fastContractButton.setText("Fast Contract")
         else:
@@ -1366,7 +1366,7 @@ class MainWindow(QMainWindow):
             self.disconnectButton.setChecked(False)
             self.disconnectButton.setText("Disconnect Tensors")
             self.svdButton.setChecked(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
             self.fastContractButton.setChecked(False)
             self.fastContractButton.setText("Fast Contract")
         else:
@@ -1389,7 +1389,7 @@ class MainWindow(QMainWindow):
             self.disconnectButton.setChecked(False)
             self.disconnectButton.setText("Disconnect Tensors")
             self.svdButton.setChecked(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
             self.fastContractButton.setChecked(False)
             self.fastContractButton.setText("Fast Contract")
         else:
@@ -1416,7 +1416,7 @@ class MainWindow(QMainWindow):
             self.disconnectButton.setChecked(False)
             self.disconnectButton.setText("Disconnect Tensors")
             self.svdButton.setChecked(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
             self.fastContractButton.setChecked(False)
             self.fastContractButton.setText("Fast Contract")
         else:
@@ -1439,7 +1439,7 @@ class MainWindow(QMainWindow):
             self.disconnectButton.setChecked(False)
             self.disconnectButton.setText("Disconnect Tensors")
             self.svdButton.setChecked(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
             self.fastContractButton.setChecked(False)
             self.fastContractButton.setText("Fast Contract")
             self.editor.setCursor(Qt.CrossCursor)
@@ -1477,7 +1477,7 @@ class MainWindow(QMainWindow):
             self.contractButton.setChecked(False)
             self.contractButton.setText("Detailed Contract")
             self.svdButton.setChecked(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
             self.fastContractButton.setChecked(False)
             self.fastContractButton.setText("Fast Contract")
         else:
@@ -1510,7 +1510,7 @@ class MainWindow(QMainWindow):
             self.fastContractButton.setText("Fast Contract")
         else:
             self.editor.setSVDMode(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
             self.editor.setCursor(Qt.ArrowCursor)
             # Reset any selected nodes
             for node in self.editor.selected_nodes:
@@ -1535,7 +1535,7 @@ class MainWindow(QMainWindow):
             self.disconnectButton.setChecked(False)
             self.disconnectButton.setText("Disconnect Tensors")
             self.svdButton.setChecked(False)
-            self.svdButton.setText("SVD Decomposition")
+            self.svdButton.setText("SVD Bond Compression")
         else:
             self.editor.setFastContractMode(False)
             self.fastContractButton.setText("Fast Contract")
