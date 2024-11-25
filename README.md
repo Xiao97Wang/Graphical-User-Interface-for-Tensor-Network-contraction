@@ -23,9 +23,9 @@ double-click a tensor to access its value
 
 How to use:
 
-Download the single .py file (the latest version is v002), then run the following to open the graphical User interface:
+Download the single .py file (the latest version is v003), then run the following to open the graphical User interface:
 
-python GUI_TN_contraction_v002.py
+python GUI_TN_contraction_v003.py
 
 (make sure your environment contains a python that can import numpy and PyQt5)
 
