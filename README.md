@@ -47,8 +47,9 @@ v002:
 A disconnect botton is added. This allows you to disconnect a shared bond (i.e., edge) in the tensor network. 
 
 v003:
-The "fast contract" button is added, this will automatically perform contraction and insert the contracted tensor into the tensor network
+The "fast contract" button is added, this will automatically perform contraction and insert the contracted tensor into the tensor network.
 (the old contraction button is renamed as "detailed contraction") 
-The function "SVD Bond Compression" is added as a button, which allows to use SVD to compress the bond dimension between two connected local tensors
+
+The function "SVD Bond Compression" is added as a button, which allows to use SVD to compress the bond dimension between two connected local tensors.
 
 
